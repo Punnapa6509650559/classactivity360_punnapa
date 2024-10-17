@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ $MyWorkflows]
+    branches: [ MyWorkflows]
   pull_request:
-    branches: [ $MyWorkflows ]
+    branches: [ MyWorkflows ]
 
 jobs:
   build:
