@@ -1,4 +1,4 @@
-const { add, subtract, multiply } = require('./math');
+const { add, subtract, multiply } = require('../../math');
 
 describe('simple arithmetic', () => {
 
